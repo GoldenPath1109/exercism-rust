@@ -56,3 +56,4 @@ pub fn fmt_num(value: &Value, _args: &HashMap<String, Value>) -> Result<Value> {
     let pretty_num = String::from_utf8(pretty_digits).unwrap_or_default();
     Ok(Value::String(pretty_num))
 }
+
